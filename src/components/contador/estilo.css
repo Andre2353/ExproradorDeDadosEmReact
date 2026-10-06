@@ -38,3 +38,7 @@
 .btn-incrementar:hover{
     background: #02865a;
 }
+.btn-decrementar{
+    background: #fe0707;
+    color: #fff;
+}
