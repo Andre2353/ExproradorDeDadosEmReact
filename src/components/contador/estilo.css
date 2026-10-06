@@ -22,3 +22,11 @@
     margin-bottom: 15px;
     font-style: 15px;
 }
+.passo-conteiner input{
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
