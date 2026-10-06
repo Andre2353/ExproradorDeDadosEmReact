@@ -45,4 +45,7 @@
 .btn-decrementar:hover{
     background: #0070f3;
 }
-
+.btn-resetar{
+    background: #494949;
+    color: #fff;
+}
