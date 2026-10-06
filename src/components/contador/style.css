@@ -1,11 +1,11 @@
-.conteiner-dispaly{
+.contador-display {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px 0;
 }
 
-.numero-contador{
+.numero-contador {
     font-size: 2.5rem;
     font-weight: 700;
     color: #0070f3;
@@ -14,15 +14,17 @@
     border-radius: 10px;
     border: 1px solid #bae0ff;
 }
-.passo-conteiner{
+
+.passo-conteiner {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 18px;
     margin-bottom: 15px;
-    font-style: 15px;
+    font-size: 15px; 
 }
-.passo-conteiner input{
+
+.passo-conteiner input {
     width: 50px;
     padding: 5px;
     border: 1px solid #ccc;
@@ -30,25 +32,42 @@
     text-align: center;
     font-size: 0.8rem;
 }
-.btn-incrementar{
-    background: #10b981;
-    color:#ccc;
 
+.btn-incrementar {
+    background: #10b981;
+    color: #fff; 
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
 }
-.btn-incrementar:hover{
+
+.btn-incrementar:hover {
     background: #02865a;
 }
-.btn-decrementar{
+
+.btn-decrementar {
     background: #fe0707;
     color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
 }
-.btn-decrementar:hover{
-    background: #0070f3;
+
+.btn-decrementar:hover {
+    background: #c81e1e; 
 }
-.btn-resetar{
+
+.btn-resetar {
     background: #494949;
     color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
 }
-.btn-resetar:hover{
-    background: #0070f3;
+
+.btn-resetar:hover {
+    background: #333333; 
 }
